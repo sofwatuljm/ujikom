@@ -1,6 +1,6 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-primary">
-  <div class="container">
+  <nav class="navbar navbar-expand-lg bg-primary sticky-top">
+  <div class="container"> 
     <div class="navbar-brand" ms-5>
       <img src="assets/img/Logo-SMK.png" alt="Logo" width="80" class="d-inline-block align-text-top">
     </div>
