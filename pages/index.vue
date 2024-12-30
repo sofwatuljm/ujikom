@@ -1,158 +1,221 @@
 <template>
   <div class="container-fuild">
     <!--Halaman Background-->
-    <div class="container-fluid p-5">
-      <img
-        src="assets/img/sekolah.jpg"
-        class="d-block w-100"
-        alt="..."
-        d-flex
-        justify
-        content
-      />
+    <div>
+      <div class="hero">
+        <h1>Selamat Datang Di Website SMKN 4 Tasikmalaya</h1>
+      </div>
     </div>
 
-    <!--Cards-->
     <div class="container">
-      <div class="row my-5 ms-5">
-        <div class="col-lg-4">
-          <div class="card" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title text-md-center mt-5">Visi Misi</h5>
-            </div>
+      <h3 class="text-center mb-5">Sambutan Kepala Sekolah</h3>
+      <div class="row clearfix">
+        <img
+          class="col-md-4"
+          src="assets/img/kepalasekolah.jpg"
+          alt="..."
+          style="width: 20rem"
+        />
+        <p class="col-md-8 float-md-end mb-3">
+          Assalamualaikum Warahmatullahi Wabarakatuh Selamat datang di SMKN 4
+          Tasikmalaya. Segala puji dan syukur kita panjatkan kehadirat Allah
+          SWT, semoga kita semua ada dalam lindungan-Nya. Dan atas perkenan-Nya
+          pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini.
+          Kami berharap dengan adanya website di SMK Negeri 4 Tasikmalaya ini
+          para pengunjung dapat mengenal lebih jauh tentang sekolah kami
+          sehingga dapat mempererat tali silaturrahmi antara sekolah dengan
+          masyarakat demi kemajuan kita bersama. Tiada gading yang tak retak,
+          website kami ini masih dalam proses pengembangan, masih banyak
+          kekurangan yang harus kami perbaiki. Kritik dan sarannya yang
+          membangun sangat kami harapkan untuk pengembangan ke depan. Akhirnya,
+          saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak
+          yang tidak dapat disebutkan satu segala bantuan dan persatu atas
+          fasilitasnya yang telah diberikan semoga semua yang kita lakukan
+          bermanfaat bagi masyarakat. Wassalamu'alaikum Warahmatullahi
+          Wabarakatuh.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Cards-->
+  <div class="container">
+    <h3 class="text-center mb-5">Data Statistik</h3>
+    <div class="row my-5 ms-5 text-white">
+      <div class="col-lg-3">
+        <div class="card bg-primary" style="height: 10rem">
+          <div class="card-body">
+            <h4 class="card-title text-md-center mt-5 fw-bold">80 Guru</h4>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title text-md-center mt-5">Kepala Sekolah</h5>
-            </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card bg-primary" style="height: 10rem">
+          <div class="card-body">
+            <h4 class="card-title text-md-center mt-5 fw-bold">1500 Siswa</h4>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card" style="height: 10rem">
-            <div class="card-body">
-              <h5 class="card-title text-md-center mt-5">Tentang Sekolah</h5>
-            </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card bg-primary" style="height: 10rem">
+          <div class="card-body">
+            <h4 class="card-title text-md-center mt-5 fw-bold">34 Rombel</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card bg-primary" style="height: 10rem">
+          <div class="card-body">
+            <h4 class="card-title text-md-center mt-5 fw-bold">
+              15 Ekstrakurikuler
+            </h4>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--Jurusan-->
-    <div class="container">
-      <h5 class="text-center mb-5">Kompetensi Keahlian</h5>
-      <div class="row my-5">
-        <!-- PPLG -->
-        <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col-md-2 text-center">
-            <img
-              src="/assets/img/rpl.jpg"
-              alt="PPLG"
-              class="img-fluid rounded"
-            />
-          </div>
-          <div class="col-md-6">
-            <h5 class="card-title text-center text-md-start">
-              Pengembangan Perangkat Lunak Dan Gim (PPLG)
-            </h5>
+  <!--Jurusan-->
+  <div class="container">
+    <h3 class="text-center mb-5">Kompetensi Keahlian</h3>
+    <div class="row my-5">
+      <!-- PPLG -->
+      <div class="row align-items-center mb-4 justify-content-center">
+        <div class="col-md-2 text-center">
+          <img src="/assets/img/rpl.jpg" alt="PPLG" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6">
+          <h5 class="card-title text-center text-md-start">
+            Pengembangan Perangkat Lunak Dan Gim (PPLG)
+          </h5>
+        </div>
+      </div>
+
+      <!-- TJKT -->
+      <div class="row align-items-center mb-4 justify-content-center">
+        <div class="col-md-2 text-center">
+          <img src="assets/img/tjkt.png" alt="TJKT" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6">
+          <h5 class="card-title text-center text-md-start">
+            Teknik Jaringan Komputer Dan Telekomunikasi
+          </h5>
+        </div>
+      </div>
+
+      <!-- TBSM -->
+      <div class="row align-items-center mb-4 justify-content-center">
+        <div class="col-md-2 text-center">
+          <img src="assets/img/tbsm.png" alt="TBSM" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6">
+          <h5 class="card-title text-center text-md-start">
+            Teknik Bisnis Sepeda Motor
+          </h5>
+        </div>
+      </div>
+
+      <!-- DKV -->
+      <div class="row align-items-center mb-4 justify-content-center">
+        <div class="col-md-2 text-center">
+          <img src="assets/img/dkv.png" alt="DKV" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6">
+          <h5 class="card-title text-center text-md-start">
+            Desain Komunikasi Visual
+          </h5>
+        </div>
+      </div>
+
+      <!-- TOI -->
+      <div class="row align-items-center mb-4 justify-content-center">
+        <div class="col-md-2 text-center">
+          <img src="assets/img/toi.png" alt="TOI" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6">
+          <h5 class="card-title text-center text-md-start">
+            Teknik Otomasi Industri
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Berita-->
+  <div class="container">
+    <h3 class="text-center pb-5">Berita</h3>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem">
+          <img src="assets/img/sr.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Sosialisasi</h5>
+            <p class="card-text">
+              Yayasan Astra Honda Motor (AHM) meresmikan Safety Riding Lab (SRL)
+              Astra Honda ke-7 sekaligus penandatangan kesepakatan kerja sama
+              dengan SMKN 4 Tasikmalaya, Senin (20/5/2024)
+            </p>
+            <a
+              href="https://radartasik.id/2024/05/21/ahm-resmikan-safety-riding-lab-di-smkn-4-tasikmalaya-wujudkan-komitmen-keselamatan-berkendara/"
+              class="btn btn-primary"
+              >Selengkapnya</a
+            >
           </div>
         </div>
-
-        <!-- TJKT -->
-        <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col-md-2 text-center">
-            <img
-              src="assets/img/tjkt.png"
-              alt="TJKT"
-              class="img-fluid rounded"
-            />
-          </div>
-          <div class="col-md-6">
-            <h5 class="card-title text-center text-md-start">
-              Teknik Jaringan Komputer Dan Telekomunikasi
-            </h5>
-          </div>
-        </div>
-
-        <!-- TBSM -->
-        <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col-md-2 text-center">
-            <img
-              src="assets/img/tbsm.png"
-              alt="TBSM"
-              class="img-fluid rounded"
-            />
-          </div>
-          <div class="col-md-6">
-            <h5 class="card-title text-center text-md-start">
-              Teknik Bisnis Sepeda Motor
-            </h5>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem">
+          <img src="assets/img/dam.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">DAM</h5>
+            <p class="card-text">
+              Sejalan dengan upaya pemerintah mencerdaskan anak bangsa melalui
+              pendidikan vokasi industri, PT Daya Adicipta Motora (DAM) selaku
+              Main Dealer Sepeda Motor dan Suku Cadang Honda di Jawa Barat
+              meresmikan kerjasama dengan SMK Negeri 4 Tasikmalaya.
+            </p>
+            <a
+              href="https://www.radarcianjur.com/jabar/9457833134/sinergi-bagi-negeri-dam-jalin-kerjasama-dengan-smkn-4-tasikmalaya-terapkan-kurikulum-teknik-bisnis-sepeda-m"
+              class="btn btn-primary"
+              >Selengkapnya</a
+            >
           </div>
         </div>
-
-        <!-- DKV -->
-        <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col-md-2 text-center">
-            <img src="assets/img/dkv.png" alt="DKV" class="img-fluid rounded" />
-          </div>
-          <div class="col-md-6">
-            <h5 class="card-title text-center text-md-start">
-              Desain Komunikasi Visual
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem">
+          <img src="assets/img/jobfair.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              SMKN 4 Tasikmalaya Koneksikan Iduka dengan Pencari Kerja
             </h5>
-          </div>
-        </div>
-
-        <!-- TOI -->
-        <div class="row align-items-center mb-4 justify-content-center">
-          <div class="col-md-2 text-center">
-            <img src="assets/img/toi.png" alt="TOI" class="img-fluid rounded" />
-          </div>
-          <div class="col-md-6">
-            <h5 class="card-title text-center text-md-start">
-              Teknik Otomasi Industri
-            </h5>
+            <p class="card-text">
+              “Kegiatan job fair ini yang hadir 25 dunia industri atau usaha
+              untuk memberikan 500 lowongan kerja kepada pencari kerja. Tersedia
+              untuk alumni dan masyarakat,” katanya kepada Radar, Kamis
+              (12/10/2023).
+            </p>
+            <a
+              href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja/"
+              class="btn btn-primary"
+              >Selengkapnya</a
+            >
           </div>
         </div>
       </div>
     </div>
-
-    <!--Berita-->
-    <div class="container">
-      <h5 class="text-center">Berita</h5>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="assets/img/sr.webp" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Sosialisasi</h5>
-                <p class="card-text">Yayasan Astra Honda Motor (AHM) meresmikan Safety Riding Lab (SRL) Astra Honda ke-7 sekaligus penandatangan kesepakatan kerja sama dengan SMKN 4 Tasikmalaya, Senin (20/5/2024)</p>
-                <a href="https://radartasik.id/2024/05/21/ahm-resmikan-safety-riding-lab-di-smkn-4-tasikmalaya-wujudkan-komitmen-keselamatan-berkendara/" class="btn btn-primary">Selengkapnya</a>
-              </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="assets/img/dam.webp" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">DAM</h5>
-                <p class="card-text">Sejalan dengan upaya pemerintah mencerdaskan anak bangsa melalui pendidikan vokasi industri, PT Daya Adicipta Motora (DAM) selaku Main Dealer Sepeda Motor dan Suku Cadang Honda di Jawa Barat meresmikan kerjasama dengan SMK Negeri 4 Tasikmalaya.</p>
-                <a href="https://www.radarcianjur.com/jabar/9457833134/sinergi-bagi-negeri-dam-jalin-kerjasama-dengan-smkn-4-tasikmalaya-terapkan-kurikulum-teknik-bisnis-sepeda-m" class="btn btn-primary">Selengkapnya</a>
-              </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="assets/img/jobfair.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">SMKN 4 Tasikmalaya Koneksikan Iduka dengan Pencari Kerja</h5>
-                <p class="card-text">“Kegiatan job fair ini yang hadir 25 dunia industri atau usaha  untuk memberikan 500 lowongan kerja kepada pencari kerja. Tersedia untuk alumni dan masyarakat,” katanya kepada Radar, Kamis (12/10/2023).</p>
-                <a href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja/" class="btn btn-primary">Selengkapnya</a>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    </div>
+  </div>
 </template>
+
+<style scoped>
+.hero {
+  background-image: url("assets/img/smk4.JPG");
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
