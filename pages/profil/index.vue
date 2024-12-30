@@ -5,7 +5,7 @@
         <div class="card">
           <h5 class="card-header">Sejarah SMKN 4 TASIKMALAYA</h5>
           <div class="card-body">
-            <h5 class="card-title">Sejarah</h5>
+            <h5 class="card-title text-center">Sejarah</h5>
             <p class="card-text">
               Sejalan dengan Program Pemerintah dibidang pendidikan Menengah
               Kejuruan pada saat itu yakni pemerataan akses ditambah pula dengan

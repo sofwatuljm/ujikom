@@ -3,12 +3,13 @@
     <!--Halaman Background-->
     <div>
       <div class="hero">
+        <div class="bg-secondary"></div>
         <h1>Selamat Datang Di Website SMKN 4 Tasikmalaya</h1>
       </div>
     </div>
 
     <div class="container">
-      <h3 class="text-center mb-5">Sambutan Kepala Sekolah</h3>
+      <h3 class="text-center mt-5">Sambutan Kepala Sekolah</h3>
       <div class="row clearfix">
         <img
           class="col-md-4"
@@ -41,33 +42,35 @@
   <!--Cards-->
   <div class="container">
     <h3 class="text-center mb-5">Data Statistik</h3>
-    <div class="row my-5 ms-5 text-white">
+    <div class="row my-5 ms-5 text-dark">
       <div class="col-lg-3">
-        <div class="card bg-primary" style="height: 10rem">
+        <div class="card bg-light" style="height: 10rem">
           <div class="card-body">
             <h4 class="card-title text-md-center mt-5 fw-bold">80 Guru</h4>
           </div>
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="card bg-primary" style="height: 10rem">
+        <div class="card bg-light" style="height: 10rem">
           <div class="card-body">
             <h4 class="card-title text-md-center mt-5 fw-bold">1500 Siswa</h4>
           </div>
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="card bg-primary" style="height: 10rem">
+        <div class="card bg-light" style="height: 10rem">
           <div class="card-body">
-            <h4 class="card-title text-md-center mt-5 fw-bold">34 Rombel</h4>
+            <h4 class="card-title text-md-center mt-5 fw-bold">
+              10 Administrasi
+            </h4>
           </div>
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="card bg-primary" style="height: 10rem">
+        <div class="card bg-light" style="height: 10rem">
           <div class="card-body">
             <h4 class="card-title text-md-center mt-5 fw-bold">
-              15 Ekstrakurikuler
+              18 Ekstrakurikuler
             </h4>
           </div>
         </div>
@@ -145,15 +148,15 @@
   <div class="container">
     <h3 class="text-center pb-5">Berita</h3>
     <div class="row">
-      <div class="col-lg-4">
+      <div v-for="(berita, i) in cover" :key="i" class="col-lg-4">
         <div class="card" style="width: 18rem">
-          <img src="assets/img/sr.webp" class="card-img-top" />
+          <img :src="berita.foto" class="card-img-top" />
           <div class="card-body">
-            <h5 class="card-title">Sosialisasi</h5>
+            <h5 class="card-title">
+              {{ berita.judul }}
+            </h5>
             <p class="card-text">
-              Yayasan Astra Honda Motor (AHM) meresmikan Safety Riding Lab (SRL)
-              Astra Honda ke-7 sekaligus penandatangan kesepakatan kerja sama
-              dengan SMKN 4 Tasikmalaya, Senin (20/5/2024)
+              {{ berita.nama }}
             </p>
             <a
               href="https://radartasik.id/2024/05/21/ahm-resmikan-safety-riding-lab-di-smkn-4-tasikmalaya-wujudkan-komitmen-keselamatan-berkendara/"
@@ -163,11 +166,14 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <!-- <div class="col-lg-4">
         <div class="card" style="width: 18rem">
           <img src="assets/img/dam.webp" class="card-img-top" />
           <div class="card-body">
-            <h5 class="card-title">DAM</h5>
+            <h5 class="card-title">
+              Sinergi Bagi Negeri, DAM Jalin Kerjasama Dengan SMKN 4 Tasikmalaya
+              Terapkan Kurikulum Teknik & Bisnis Sepeda Motor
+            </h5>
             <p class="card-text">
               Sejalan dengan upaya pemerintah mencerdaskan anak bangsa melalui
               pendidikan vokasi industri, PT Daya Adicipta Motora (DAM) selaku
@@ -202,7 +208,7 @@
             >
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -219,3 +225,17 @@
   align-items: center;
 }
 </style>
+
+<script setup>
+const supabase = useSupabaseClient();
+const cover = ref([]);
+
+const getData = async () => {
+  const { data, error } = await supabase.from("berita").select(`*`);
+  if (data) cover.value = data;
+};
+
+onMounted(() => {
+  getData();
+});
+</script>

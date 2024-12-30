@@ -1,5 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-primary sticky-top">
+  <nav
+    class="navbar navbar-expand-lg sticky-top"
+    style="background-color: #929fba; width: 100%"
+  >
     <div class="container">
       <div class="navbar-brand" ms-5>
         <img
@@ -20,25 +23,29 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Beranda</a>
+            <a class="nav-link active fs-5" aria-current="page" href="/"
+              >Beranda</a
+            >
           </li>
+
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/profil"
+            <a class="nav-link active fs-5" aria-current="page" href="/profil"
               >Profil</a
             >
           </li>
+
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/galeri"
+            <a class="nav-link active fs-5" aria-current="page" href="/galeri"
               >Galeri</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/eskul"
+            <a class="nav-link active fs-5" aria-current="page" href="/eskul"
               >Ekstrakurikuler</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/kontak"
+            <a class="nav-link active fs-5" aria-current="page" href="/kontak"
               >Kontak</a
             >
           </li>
