@@ -1,12 +1,12 @@
 <template>
   <nav
     class="navbar navbar-expand-lg sticky-top"
-    style="background-color: #929fba; width: 100%"
+    style="background-color: #929fba"
   >
-    <div class="container">
-      <div class="navbar-brand" ms-5>
+    <div class="container-fluid">
+      <div class="navbar-brand">
         <img
-          src="assets/img/Logo-SMK.png"
+          src="/assets/img/logo.png"
           alt="Logo"
           width="80"
           class="d-inline-block align-text-top"
@@ -14,9 +14,17 @@
       </div>
       SMKN 4 TASIKMALAYA
 
-      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div
         class="justify-content-end collapse navbar-collapse"
         id="navbarNavDropdown"
