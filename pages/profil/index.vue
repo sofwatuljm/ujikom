@@ -97,3 +97,15 @@ ul {
   text-align: justify;
 }
 </style>
+
+<script setup>
+useHead({
+  title: "Profil",
+  meta: [
+    {
+      name: "description",
+      content: "Profil",
+    },
+  ],
+});
+</script>
