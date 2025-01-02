@@ -3,7 +3,6 @@
     <!--Halaman Background-->
     <div>
       <div class="hero">
-        <div class="bg-secondary"></div>
         <h1>Selamat Datang Di Website SMKN 4 Tasikmalaya</h1>
       </div>
     </div>
@@ -15,8 +14,7 @@
           class="col-md-4"
           src="assets/img/kepalasekolah.jpg"
           alt="..."
-          style="width: 20rem"
-        />
+          style="width: 20rem" />
         <p class="col-md-8 float-md-end mb-3">
           Assalamualaikum Warahmatullahi Wabarakatuh Selamat datang di SMKN 4
           Tasikmalaya. Segala puji dan syukur kita panjatkan kehadirat Allah
@@ -85,8 +83,7 @@
             <img
               src="assets/img/rpl.jpg"
               alt="PPLG"
-              class="img-fluid rounded"
-            />
+              class="img-fluid rounded" />
           </div>
           <div class="col-md-6">
             <h5 class="card-title text-center text-md-start">
@@ -101,8 +98,7 @@
             <img
               src="assets/img/tjkt.jpg"
               alt="TJKT"
-              class="img-fluid rounded"
-            />
+              class="img-fluid rounded" />
           </div>
           <div class="col-md-6">
             <h5 class="card-title text-center text-md-start">
@@ -117,8 +113,7 @@
             <img
               src="assets/img/tbsm.jpg"
               alt="TBSM"
-              class="img-fluid rounded"
-            />
+              class="img-fluid rounded" />
           </div>
           <div class="col-md-6">
             <h5 class="card-title text-center text-md-start">
@@ -133,8 +128,7 @@
             <img
               src="assets/img/dkv.jpg"
               alt="TBSM"
-              class="img-fluid rounded"
-            />
+              class="img-fluid rounded" />
           </div>
           <div class="col-md-6">
             <h5 class="card-title text-center text-md-start">

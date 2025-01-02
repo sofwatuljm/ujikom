@@ -5,8 +5,7 @@
       <!-- Footer -->
       <footer
         class="text-center text-lg-start text-white"
-        style="background-color: #929fba"
-      >
+        style="background-color: #929fba">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
           <!-- Section: Links -->
@@ -120,9 +119,8 @@
         <!-- Copyright -->
         <div
           class="text-center p-3"
-          style="background-color: rgba(0, 0, 0, 0.2)"
-        >
-          Copyright@SMKN 4 TASIKMALAYA
+          style="background-color: rgba(0, 0, 0, 0.2)">
+          Copyright ©SMKN 4 TASIKMALAYA
         </div>
         <!-- Copyright -->
       </footer>
